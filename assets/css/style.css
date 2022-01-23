@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+    height: 100vh;
+    background: url(../images/endless-constellation.svg);
+}
+
+.randomNumber{
+    height: 130px;
+    width: 120px;
+    position: absolute;
+    background-color: lightcyan;
+}
+
+.randomNumber,.totalScore>p{
+    font-size: larger;
+}
+.scores{
+    left: 200px;
+
+}
+.scores,.totalScore{
+    height: 150px;
+    width: 100px;
+    padding: 3px;
+    position: relative;
+    background-color: lightpink;
+}
+img{
+    height: 50px;
+    width: 50px;
+}
+.images{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
